@@ -22,7 +22,7 @@ export class AppComponent {
   public categoryDataSource: any;
 
   public allowMultiple: Boolean = true;
-  public selectedDate = new Date(2019, 8, 24);
+  public selectedDate = new Date(2026, 0, 16);
 
   constructor(private firestore: Firestore) {
     const resourceCollection = collection(this.firestore, 'ResourceData');

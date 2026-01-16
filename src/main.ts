@@ -7,14 +7,13 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import { getStorage, provideStorage } from '@angular/fire/storage';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyCyuI75-v_ujddkK53gYDsLlwLi4ho14XE",
+  authDomain: "schedular-with-firebase.firebaseapp.com",
+  projectId: "schedular-with-firebase",
+  storageBucket: "schedular-with-firebase.firebasestorage.app",
+  messagingSenderId: "568133449093",
+  appId: "1:568133449093:web:80c8a4ef3f33218cb180ec",
+  measurementId: "G-TFTVY3DXRF"
 };
 
 enableProdMode();
