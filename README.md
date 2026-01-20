@@ -14,13 +14,14 @@ This project is an Angular application that integrates the Syncfusion Scheduler 
 3. [Output Preview](#output-preview)
 ### Building the Sample from Scratch
 1. [Application Creation](#application-creation)
-2. [Install Dependencies](#install-dependencies)
-3. [Module Imports & Configuration](#module-imports--configuration)
-4. [Firebase Creation & Integration](#firebase-creation--integration)
-5. [Firestore Creation & Integration](#firestore-creation--integration)
-6. [Development Notes](#development-notes)
-7. [Running the Application](#running-the-application-1)
-8. [Output Preview](#output-preview-1)
+2. [Install Dependencies](#install-dependencies-1)
+3. [Project Structure](#project-structure)
+4. [Module Imports & Configuration](#module-imports--configuration)
+5. [Firebase Creation & Integration](#firebase-creation--integration)
+6. [Firestore Creation & Integration](#firestore-creation--integration)
+7. [Development Notes](#development-notes)
+8. [Running the Application](#running-the-application-1)
+9. [Output Preview](#output-preview-1)
 
 - [Troubleshooting](#troubleshooting)
 - [Quick Start](#quick-start)
@@ -113,6 +114,37 @@ Install the required packages for the Scheduler component and Firebase integrati
   ```bash
   npm i @angular/fire firebase --legacy-peer-deps
   ```
+## Project Structure
+```
+├── .angular/      
+├── .github/                 
+├── e2e/                  
+├── node_modules/     
+├── public/               
+├── src/
+│   ├── app/
+│   │   ├── app.component.css       # Component styles
+│   │   ├── app.component.html      # Scheduler template
+│   │   ├── app.component.spec.ts   # Unit tests for AppComponent
+│   │   ├── app.component.ts        # Scheduler & Firestore logic
+│   │   ├── app.config.ts           # Application configuration
+│   │   └── app.routes.ts           # Application routes
+│   ├── index.html                  # Main HTML entry point
+│   ├── main.ts                     # Application bootstrap & Firebase init
+│   └── styles.css                  # Global styles
+├── .editorconfig   
+├── .gitignore      
+├── angular.json           
+├── browserslist 
+├── karma.conf.js
+├── package.json
+├── package-lock.json 
+├── README.md 
+├── tsconfig.app.json
+├── tsconfig.json 
+├── tsconfig.spec.json
+└── tslint.json
+```
 
 ## Module Imports & Configuration
 
